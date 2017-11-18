@@ -18,6 +18,6 @@ int rand2=(int)(Math.random()*two);
 int rand3=(int)(Math.random()*three);
 
 String phrase=wordListOne[rand1]+" "+wordListTwo[rand2]+" "+wordListThree[rand3];
-System.out.println("What we need is a " + phrase);
+System.out.println("What we need is a : " + phrase);
 }
 }
